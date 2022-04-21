@@ -11,32 +11,36 @@
 </head>
 
 <body>
-<!-- for logo -->
-    <div class="mainImg">
-        <h1 class="image_title">Gallery</h1>
-    </div>
+
     <header class="header">
-        <!-- for logo -->
-        <img class="logo" src="../Assets/logo2.png" alt="logo">
-        <nav>
-            <ul class="header_menu">
-                <li class="header_menu_item"><a href="#">About DLC</a></li>
-                <li class="header_menu_item"><a href="#">Our Worlds</a></li>
-                <li class="header_menu_item"><a href="#">Experiences</a></li>
-                <li class="header_menu_item"><a href="#">Gallery</a></li>
-                <li class="header_menu_item"><a href="#">Press</a></li>
+        <div class="nav-bar">
+            
+            <!-- for logo -->
+            <div>
+                <img class="logo" src="../Assets/logo.svg" alt="logo">
+                <div class="Gallery_text">
+                    <h1>Gallery</h1>
+                </div>
+            </div>
+           
+
+            <ul class="header_menu" id="header">
+                <li class="header_menu_item"><a href="../pages/aboutDLC.html">About DLC</a></li>
+                <li class="header_menu_item"><a href="/pages/OurWorld.html">Our Worlds</a></li>
+                <li class="header_menu_item"><a href="/pages/experiences.html">Experiences</a></li>
+                <li class="header_menu_item"><a href="/pages/Gallery.html">Gallery</a></li>
+                <li class="header_menu_item"><a href="/pages/press.html">Press</a></li>
 
             </ul>
-
-        </nav>
-        <div class="button">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+            <div class="button">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
         </div>
-
+        
     </header>
-    </div>
+
 
     <div class="gallery_menues">
 
@@ -76,46 +80,35 @@
         </div>
     </div>
 
-    <footer class="footer">
-        <div class="footer_left">
-        <!-- for logo -->
-        <img class="footer_logo" src="#" alt="logo">
-        
-        <div class="footer_bottom">
-        <p>&copy; Discovery Land Company.All rights reserved</p>
+    <footer class="footer-container">
+        <div class="footer-item-logo">
+            <div class="footer-items" id="footer-logo"><img src="../Assets/FooterIcon.svg " alt=""></div>
+
+            <div class="footer-items" id="footer-links">
+                <div class="links">
+                    <div class="contact-info" style="opacity: 0.5; font-size: small;">GET IN TOUCH</div>
+                    <div class="contact-info">(480) 624-5200</div>
+                    <div class="contact-info">mail@discoverylandco.com</div>
+                </div>
+                <div class="links">
+                    <div class="link">About DLC</div>
+                    <div class="link">Our Worlds</div>
+                    <div class="link">Experiences</div>
+                    <div class="link">Gallery</div>
+                    <div class="link">Press</div>
+                </div>
+                <div class="links">
+                    <div class="page">Magazine</div>
+                    <div class="page">Careers</div>
+                    <div class="page">Foundation</div>
+                    <div class="page">Company</div>
+                    <div class="page">Contact</div>
+                    <div class="page">Privacy</div>
+                </div>
+            </div>
         </div>
-    </div>
-
-        <nav class="footer_nav">
-            <div>
-                <h4 class="footer_menu_item" id="footer_menu1"><a href="#">Get in touch</h4>
-                <ul class="footer_menu_second">
-                    
-                    <li class="footer_menu_item"><a href="#"></a>(480) 624-5200</li>
-                    <li class="footer_menu_item"><a href="#">mail@discoverylandco.com</a></li>
-
-                </ul>
-            </div>
-            <div>
-                <ul class="footer_menu">
-                    <li class="footer_menu_item"><a href="#">About DLC</a></li>
-                    <li class="footer_menu_item"><a href="#">Our Worlds</a></li>
-                    <li class="footer_menu_item"><a href="#">Experiences</a></li>
-                    <li class="footer_menu_item"><a href="#">Gallery</a></li>
-                    <li class="footer_menu_item"><a href="#">Press</a></li>
-
-                </ul>
-            </div>
-            <div>
-                <ul class="footer_menu">
-                    <li class="footer_menu_item"><a href="#">Magazine</a></li>
-                    <li class="footer_menu_item"><a href="#">Careers</a></li>
-                    <li class="footer_menu_item"><a href="#">Foundation</a></li>
-                    <li class="footer_menu_item"><a href="#">Company</a></li>
-                    <li class="footerr_menu_item"><a href="#">Privacy</a></li>
-
-                </ul>
-            </div>
-        </nav>
+        <div class="copyright">&copy; Discovery Land Campany. All rights reserved.</div>
     </footer>
-</nav>
+</body>
+
+</html>
